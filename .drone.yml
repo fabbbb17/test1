@@ -10,3 +10,4 @@ steps:
   - make hellomake
   - ./hello
   - ./hellomake
+  - find /
