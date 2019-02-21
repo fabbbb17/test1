@@ -5,6 +5,7 @@ steps:
 - name: hello
   image: gcc
   commands:
+  - date -R
   - make
   - make hellomake
   - ./hello
