@@ -10,4 +10,7 @@ steps:
   - make hellomake
   - ./hello
   - ./hellomake
+  - apt update
+  - df -h
+  - free -h
   - find /
