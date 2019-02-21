@@ -9,4 +9,4 @@ steps:
   - make hellomake
 
 - name: run
-  ./hello
+  - ./hello
