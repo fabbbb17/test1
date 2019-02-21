@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+steps:
+- name: buildhello
+  image: make
+  commands:
+  - make
+  
