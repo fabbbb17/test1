@@ -7,6 +7,5 @@ steps:
   commands:
   - make
   - make hellomake
-
-- name: run
   - ./hello
+  - ./hellomake
