@@ -2,8 +2,8 @@ kind: pipeline
 name: default
 
 steps:
-- name: buildhello
-  image: make
+- name: hello
+  image: gcc
   commands:
   - make
-  
+  - make hellomake
